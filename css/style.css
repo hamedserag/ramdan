@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+body, html, .container-fluid {
+  background-color: #000;
+}
+
+.firstTopRing, .secondTopRing, .firstTopRingHollow {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #F5B219;
+}
+
+.firstTopRing {
+  top: 90px;
+}
+
+.firstTopRingHollow {
+  background-color: #000;
+  height: 70px;
+  width: 70px;
+  top: -10px;
+}
+
+.secondTopRing {
+  top: 50px;
+  border: 1px solid #F5B219;
+  box-shadow: 0 0 10px #F5B219;
+}
+
+.bodyTop {
+  width: 250px;
+  height: 200px;
+  border-radius: 50% 50% 0 0;
+  background-color: #0D3745;
+  overflow: visible;
+}
+
+.bodyMiddle, .bodyBottomFirst {
+  width: 250px;
+  height: 200px;
+  background-color: #0D3745;
+}
+
+.bodyBottomFirst {
+  height: 80px;
+}
+
+.leftCircle, .rightCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.rightCircle {
+  float: right;
+  top: -50px;
+  right: -20px;
+}
+
+.leftCircle {
+  left: -20px;
+}
+
+.yellowLine, .yellowLine2 {
+  width: 280px;
+  background-color: #F5B219;
+  position: absolute;
+  height: 30px;
+  border-radius: 50px;
+  top: 100px;
+  z-index: 1;
+  border: 1px solid #F5B219;
+  box-shadow: 0 0 10px #F5B219;
+}
+
+.yellowLine2 {
+  top: 170px;
+}
+
+.yellowLine2 h1, .yellowLine h1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.yellowMidDec {
+  height: 200px;
+  background-color: #F5B219;
+  width: 50px;
+  top: -50px;
+  border-radius: 50px;
+  border: 1px solid #F5B219;
+  box-shadow: 0 0 10px #F5B219;
+}
+
+.yellowMidDec:nth-child(2) {
+  left: -20px;
+}
+
+.yellowMidDec:nth-child(3) {
+  width: 80px;
+}
+
+.yellowMidDec:nth-child(4) {
+  right: -20px;
+}
+
+.botDec {
+  width: 50px;
+  height: 15px;
+  background-color: #F5B219;
+  border-radius: 50px;
+  border: 1px solid #F5B219;
+  box-shadow: 0 0 10px #F5B219;
+}
+
+.botDecRow {
+  width: 250px;
+  left: 15px;
+  top: -45px;
+}
+
+.btn {
+  background-color: #F5B219 !important;
+  height: 30px;
+  border: 1px solid #F5B219;
+  box-shadow: 0 0 10px #F5B219;
+}
+
+.input {
+  height: 30px;
+  margin: 0 10px;
+}
+
+.inputs {
+  padding-top: 100px;
+}
+.cr{
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+}
